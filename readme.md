@@ -22,15 +22,15 @@
     }
 
 2.  To get all information of vendors\
-    a) url: http://127.0.0.1:8000/api/vendors\
+    a) url: http://127.0.0.1:8000/api/vendors \
     b) METHOD: GET
 
 3.  To get all information of  one vendor\
-    a) url: http://127.0.0.1:8000/api/vendors/{vendor_id}\
+    a) url: http://127.0.0.1:8000/api/vendors/{vendor_id} \
     b) METHOD: GET
 
 4.  To update a vendor information\
-    a) url: http://127.0.0.1:8000/api/vendors/{vendor_id}\
+    a) url: http://127.0.0.1:8000/api/vendors/{vendor_id} \
     b) METHOD: PUT\
     c) JSON:\
         {\
@@ -41,7 +41,7 @@
         }
 
 5. To delete all information of one vendor\
-    a) url: http://127.0.0.1:8000/api/vendors/{vendor_id}\
+    a) url: http://127.0.0.1:8000/api/vendors/{vendor_id} \
     b) METHOD: GET
     
 6.  Add a new purchase order\
@@ -59,7 +59,7 @@
     }
 
 7.  To get all information of all purchases\
-    a) url: http://127.0.0.1:8000/api/purchase_orders\
+    a) url: http://127.0.0.1:8000/api/purchase_orders \
     b) METHOD: GET
 
 8.  To get all information of one purchase\
@@ -67,7 +67,7 @@
     b) METHOD: GET
 
 9.  To update the status of a purchase\
-    a) url: http://127.0.0.1:8000/api/purchase_orders/{purchase_id}\
+    a) url: http://127.0.0.1:8000/api/purchase_orders/{purchase_id} \
     b) METHOD: PUT\
     c) JSON:\
         {\
@@ -81,9 +81,9 @@
         }
 
 10. To acknowledge a Purchase Order\
-    url: http://localhost:8000/api/purchase_orders/{purchase_id}/acknowledge\
+    url: http://localhost:8000/api/purchase_orders/{purchase_id}/acknowledge \
     METHOD: PUT
 
 11. To get a vendor's performance rating\
-    url: http://localhost:8000/api/vendors/{vendor_id}/performance\
+    url: http://localhost:8000/api/vendors/{vendor_id}/performance \
     METHOD: GET
