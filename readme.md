@@ -5,10 +5,12 @@
 
 # 2. Run the testcase using tests.py
 
-    --> Run python manage.py test vendor_management.tests
+    --> Run: 
+    python manage.py test vendor_management.tests
 
 # 3. Test using Postman
-    Run the following command at beginning: python manage.py runserver
+    Run the following command at beginning: 
+    python manage.py runserver
 
 1.  To add a new vendor\
     a) url: http://127.0.0.1:8000/api/vendors \
